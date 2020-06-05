@@ -1,0 +1,71 @@
+body {
+    background-color: rgb(27, 27, 27);
+}
+
+.header {
+    background-color: black;
+}
+
+.card-body {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    background-color: black;
+}
+
+.navbar-brand {
+    color: white;
+    text-decoration: none !important;
+    list-style: none;
+}
+
+.navbar-expand-lg {
+    margin: 0 0 1rem 0;
+}
+
+.card-img-top{
+    height: 223.50px;
+}
+
+.cards {
+    width: 100%;
+    display: inline-block;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0 0 2rem;
+}
+
+.card {
+    width: 25rem;
+    display: inline-block;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+.footer {
+    /* position: fixed; */
+    display: flex;
+    justify-content: row;
+    align-items: center;
+    height: 4rem;
+    left: 0;
+    margin: 39rem 0 0 0;
+    background-color: black;
+}
+
+.text{
+    margin: 0 0 0 39rem; 
+    color: white;
+}
+
+a:not([href]) {
+    color: white;
+    text-decoration: none;
+}
+
+/* Icon */
+
+body {
+    color: white;
+}
